@@ -22,7 +22,7 @@
     <ul>
       <li v-for="blog in blogs" :key="blog.title">
         <h3>{{ blog.title }}</h3>
-        <h4>{{ blog.content }}</h4>
+        <p>{{ blog.content }}</p>
       </li>
     </ul>
   </div>
